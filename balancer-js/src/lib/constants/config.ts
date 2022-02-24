@@ -143,4 +143,40 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         },
         pools: {},
     },
+    [Network.FUJI]: {
+        chainId: Network.FUJI, //
+        addresses: {
+            contracts: {
+                vault: '0x31cBbfcE5ec5eE28d57197433Af8E7A87d14c5c5',
+                multicall: '0x0EA414bAAf9643be59667E92E26a87c4Bae3F33a',
+            },
+            tokens: {
+                wrappedNativeAsset:
+                    '0xd00ae08403B9bbb9124bB305C09058E32C39A48c',
+            },
+        },
+        urls: {
+            subgraph:
+                'https://api.thegraph.com/subgraphs/name/loli-eat-apple/balancer-fuji-v2',
+        },
+        pools: {},
+    },
+    [Network.AVALANCHE]: {
+        chainId: Network.AVALANCHE, //
+        addresses: {
+            contracts: {
+                vault: '0x31cBbfcE5ec5eE28d57197433Af8E7A87d14c5c5', // TODO: need update
+                multicall: '0xA4726706935901fe7dd0F23Cf5D4fb19867dfc88',
+            },
+            tokens: {
+                wrappedNativeAsset:
+                    '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+            },
+        },
+        urls: {
+            subgraph:
+                'https://api.thegraph.com/subgraphs/name/loli-eat-apple/balancer-fuji-v2',  // TODO: need update
+        },
+        pools: {},
+    },
 };
