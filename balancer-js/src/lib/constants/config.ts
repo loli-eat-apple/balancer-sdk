@@ -147,8 +147,8 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         chainId: Network.FUJI, //
         addresses: {
             contracts: {
-                vault: '0x31cBbfcE5ec5eE28d57197433Af8E7A87d14c5c5',
-                multicall: '0x0EA414bAAf9643be59667E92E26a87c4Bae3F33a',
+                vault: '0xf2BAaF9D8B4B0CFb19d46Ac9FFb8102e5930fadE',
+                multicall: '0x63efc53135e1FBdae928F3FeD464c4940e8a0016',
             },
             tokens: {
                 wrappedNativeAsset:
