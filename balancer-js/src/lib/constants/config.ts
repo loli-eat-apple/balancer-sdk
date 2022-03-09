@@ -157,7 +157,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         },
         urls: {
             subgraph:
-                'https://api.thegraph.com/subgraphs/name/loli-eat-apple/balancer-fuji-v2',
+                'https://api.thegraph.com/subgraphs/name/hexagonfinance/hexagon-fuji-subgraph',
         },
         pools: {},
     },
@@ -175,7 +175,7 @@ export const BALANCER_NETWORK_CONFIG: Record<Network, BalancerNetworkConfig> = {
         },
         urls: {
             subgraph:
-                'https://api.thegraph.com/subgraphs/name/loli-eat-apple/balancer-fuji-v2',  // TODO: need update
+                'https://api.thegraph.com/subgraphs/name/hexagonfinance/hexagon-subgraph',  // TODO: need update
         },
         pools: {},
     },
