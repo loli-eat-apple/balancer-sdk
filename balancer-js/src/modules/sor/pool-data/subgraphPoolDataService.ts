@@ -16,6 +16,8 @@ const NETWORKS_WITH_LINEAR_POOLS = [
     Network.RINKEBY,
     Network.GÖRLI,
     Network.KOVAN,
+    Network.FUJI,
+    Network.AVALANCHE,
 ];
 
 export class SubgraphPoolDataService implements PoolDataService {
